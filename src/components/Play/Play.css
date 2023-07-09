@@ -1,0 +1,35 @@
+.questions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px;
+
+  margin: 10px;
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.questions > button {
+  margin: 10px;
+  padding: 10px;
+  min-height: 11dvh;
+  font-size: 2dvh;
+  border: none;
+  border-radius: 20px;
+}
+.playtitle {
+  text-align: center;
+}
+.playtitle > span {
+  display: flex;
+  justify-content: space-around;
+}
+.playtitle > span > p {
+  font-size: 3dvh;
+}
+.playtitle > h2 {
+  font-size: 4dvh;
+  min-height: 10dvh;
+  @media (max-width: 800px) {
+    min-height: 30dvh;
+  }
+}

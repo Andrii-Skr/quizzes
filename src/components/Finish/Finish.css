@@ -1,0 +1,35 @@
+.finishtitle {
+  text-align: center;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.finishtitle > h1 {
+  font-size: 4dvh;
+}
+.finishtitle > span {
+  margin: 10px;
+  font-size: 2dvh;
+}
+.stattitle {
+  text-align: center;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.stattitle > span {
+  margin: 10px;
+  font-size: 2dvh;
+}
+.chart {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+}
+.chart > div {
+  width: 90dvw;
+  max-width: 1100px;
+  height: 60dvh;
+}

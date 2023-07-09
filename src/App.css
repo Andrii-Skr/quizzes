@@ -1,0 +1,24 @@
+#root {
+  width: 100dvw;
+  height: 100dvh;
+  min-width: 400px;
+}
+
+header {
+  height: 15dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(69, 51, 51);
+}
+header > a {
+  margin: 0px 30px;
+  color: aliceblue;
+}
+
+.preload {
+  font-size: 4dvh;
+  text-align: center;
+  margin: 20;
+}
