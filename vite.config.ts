@@ -4,6 +4,7 @@ import checkerPlugin from "vite-plugin-checker";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/quizzes/",
   plugins: [
     react(),
     checkerPlugin({
