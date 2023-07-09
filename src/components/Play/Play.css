@@ -12,7 +12,7 @@
   margin: 10px;
   padding: 10px;
   min-height: 11dvh;
-  font-size: 2dvh;
+  font-size: 1em;
   border: none;
   border-radius: 20px;
 }
@@ -24,13 +24,13 @@
   justify-content: space-around;
 }
 .playtitle > span > p {
-  font-size: 3dvh;
+  font-size: 1em;
   @media (max-width: 400px) {
-    font-size: 2dvh;
+    font-size: 1em;
   }
 }
 .playtitle > h2 {
-  font-size: 4dvh;
+  font-size: 2em;
   min-height: 10dvh;
   @media (max-width: 800px) {
     min-height: 30dvh;

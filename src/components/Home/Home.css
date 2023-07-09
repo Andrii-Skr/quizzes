@@ -10,7 +10,7 @@
   margin: 10px;
   padding: 10px;
   min-height: 11dvh;
-  font-size: 2dvh;
+  font-size: 1em;
   border: none;
   border-radius: 20px;
 }
@@ -23,12 +23,12 @@
 .hometitle > button {
   margin: 10px;
   padding: 10px;
-  height: 7dvh;
-  font-size: 2dvh;
+  height: 8dvh;
+  font-size: 1em;
   border: none;
   border-radius: 20px;
 }
 .hometitle > h1 {
-  font-size: 4dvh;
+  font-size: 1.5em;
   
 }
