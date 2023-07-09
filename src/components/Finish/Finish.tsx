@@ -11,7 +11,6 @@ const Finish = () => {
     wrong: 0,
   });
   const [statGlobal, setStatGlobal] = useState<statGlobalType>({
-    chart: { averageTime: [], correct: [], wrong: [] },
     averageTime: 0,
     quizzesPlayd: 0,
     correct: 0,
@@ -29,6 +28,11 @@ const Finish = () => {
         <span>{`Correct answers ${stat.correct}  `}</span>
         <span>{`Wrong answers ${stat.wrong}`}</span>
         <span>{`Average answer time ${stat.averageTime}`}</span>
+      </div>
+      <div className="chart">
+        <div>
+          <Chart statsData={stat} />
+        </div>
       </div>
       <div className="stattitle">
         <h1>Statistics for all time</h1>
