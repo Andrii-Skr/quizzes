@@ -1,0 +1,6 @@
+.notfoundtitle {
+  text-align: center;
+}
+.notfoundtitle > h1 {
+  font-size: 4dvh;
+}

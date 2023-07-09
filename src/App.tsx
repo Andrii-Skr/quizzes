@@ -3,7 +3,7 @@ import "./App.css";
 import Play from "./components/Play/Play";
 import Home from "./components/Home/Home";
 import Finish from "./components/Finish/Finish";
-import Notfound from "./components/Notfound";
+import Notfound from "./components/Notfound/Notfound";
 import Layout from "./components/Layout/Layout";
 
 function App() {

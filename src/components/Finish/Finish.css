@@ -19,6 +19,14 @@
     flex-direction: column;
   }
 }
+.stattitle > div > button {
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 2dvh;
+  font-size: 2dvh;
+  border: none;
+  border-radius: 20px;
+}
 .stattitle > span {
   margin: 10px;
   font-size: 2dvh;

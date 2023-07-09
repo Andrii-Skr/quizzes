@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { statGlobalType, statType, store } from "../../store/store";
-import "./Finish.css";
-import "uplot/dist/uPlot.min.css";
 import Chart from "../Chart";
+import "./Finish.css";
 
 const Finish = () => {
   const [stat, setStat] = useState<statType>({
@@ -35,7 +34,22 @@ const Finish = () => {
         </div>
       </div>
       <div className="stattitle">
-        <h1>Statistics for all time</h1>
+        <div>
+          <h1>Statistics for all time</h1>
+          <button
+            onClick={() => {
+              setStatGlobal({
+                averageTime: 0,
+                quizzesPlayd: 0,
+                correct: 0,
+                wrong: 0,
+              });
+              store.resetStatGlobal();
+            }}
+          >
+            Reset stats
+          </button>
+        </div>
         <span>{`Quizzes done ${statGlobal.quizzesPlayd}`}</span>
         <span>{`Correct answers ${statGlobal.correct}  `}</span>
         <span>{`Wrong answers ${statGlobal.wrong}`}</span>
